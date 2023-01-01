@@ -7,14 +7,14 @@ export default function Footer() {
       <footer className="text-cyan-600 body-font">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <Link href={"/"} className="flex md:justify-start justify-center ">
+            <Link href={"/"} className="flex md:justify-start justify-center mt-4">
               <Image src="/logo.png" width={210} height={100} />
             </Link>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-cyan-800 tracking-widest text-sm mb-1">CATEGORIES</h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none mb-5 text-">
                 <li>
                   <a className="text-cyan-600 hover:text-cyan-800">Men</a>
                 </li>
@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-cyan-800 tracking-widest text-sm mb-1">Customer Care</h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none mb-5">
                 <li>
                   <a className="text-cyan-600 hover:text-cyan-800">Help Center</a>
                 </li>
@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
 
-              <nav className="list-none mb-10 mt-5">
+              <nav className="list-none mb-5 mt-5">
                 <li>
                   <a className="text-cyan-600 hover:text-cyan-800">About Us</a>
                 </li>
