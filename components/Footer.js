@@ -16,16 +16,16 @@ export default function Footer() {
               <h2 className="title-font font-medium text-cyan-800 tracking-widest text-sm mb-1">CATEGORIES</h2>
               <nav className="list-none mb-5 text-">
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">Men</a>
+                  <Link href={"/men"} className="text-cyan-600 hover:text-cyan-800">Men</Link>
                 </li>
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">Women</a>
+                  <Link href={"/women"} className="text-cyan-600 hover:text-cyan-800">Women</Link>
                 </li>
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">Teen</a>
+                  <Link href={"/teen"} className="text-cyan-600 hover:text-cyan-800">Teen</Link>
                 </li>
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">Kids</a>
+                  <Link href={"kids"} className="text-cyan-600 hover:text-cyan-800">Kids</Link>
                 </li>
               </nav>
             </div>
