@@ -39,7 +39,7 @@ export default function Footer() {
                   <a className="text-cyan-600 hover:text-cyan-800">Returns & Refunds</a>
                 </li>
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">Contact Us</a>
+                  <Link href={"/contact"} className="text-cyan-600 hover:text-cyan-800">Contact Us</Link>
                 </li>
                 <li>
                   <a className="text-cyan-600 hover:text-cyan-800">Purchase Protection</a>
@@ -50,8 +50,7 @@ export default function Footer() {
 
               <nav className="list-none mb-5 mt-5">
                 <li>
-                  <a className="text-cyan-600 hover:text-cyan-800">About Us</a>
-                </li>
+                  <Link href={"/about"} className="text-cyan-600 hover:text-cyan-800">About Us</Link>                </li>
                 <li>
                   <a className="text-cyan-600 hover:text-cyan-800">Terms & Conditions</a>
                 </li>
