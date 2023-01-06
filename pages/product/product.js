@@ -42,6 +42,12 @@ function Product() {
             <p className="text-3xl font-medium tracking-tight text-gray-900">$192</p>
             <h3 className="sr-only">Reviews</h3>
             <p className="flex pt-5"> <AiFillStar className="text-gray-900 h-5 w-5 flex-shrink-0" /> <AiFillStar className="text-gray-900 h-5 w-5 flex-shrink-0" /> <AiFillStar className="text-gray-900 h-5 w-5 flex-shrink-0" /> <AiFillStar className="text-gray-900 h-5 w-5 flex-shrink-0" /> <AiFillStar className="text-gray-200 h-5 w-5 flex-shrink-0" /> </p>
+            <h2 className="mt-6 text-base font-medium text-gray-900">Color</h2>
+            <div className="flex space-x-1 pt-3 items-center">
+              <button className="border-2 border-gray-300  bg-blue-700 rounded-full w-9 h-9 focus:outline-none"></button>
+              <button className="border-2 border-gray-300  bg-white-800 rounded-full w-[34px] h-[34px] focus:outline-none"></button>
+              <button className="border-2 border-gray-300  bg-neutral-900 rounded-full w-9 h-9 focus:outline-none"></button>
+            </div>
           </div>
 
         </div>
