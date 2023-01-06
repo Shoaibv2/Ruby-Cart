@@ -29,7 +29,7 @@ function Men() {
           <div className="lg:w-1/4 p-4 md:w-1/2 w-full group mt-2">
             <a href="#">
               <div href="" className=" overflow-hidden rounded-md bg-gray-100 group-hover:opacity-75">
-                <img src="/t-shirt-men-2.jpg" alt="" className="h-[288px] w-[288px] object-cover object-center" />
+                <img src="/shirt-men-5.jpg" alt="" className="h-[288px] w-[288px] object-cover object-center" />
               </div>
             </a>
             <a href="" className="mt-3 block">
@@ -40,7 +40,7 @@ function Men() {
           <div className="lg:w-1/4 p-4 md:w-1/2 w-full group mt-2">
             <a href="#">
               <div href="" className=" overflow-hidden rounded-md bg-gray-100 group-hover:opacity-75">
-                <img src="/t-shirt-men-2.jpg" alt="" className="h-[288px] w-[288px] object-cover object-center" />
+                <img src="/shirt-men-4.jpg" alt="" className="h-[288px] w-[288px] object-cover object-center" />
               </div>
             </a>
             <a href="" className="mt-3 block">
