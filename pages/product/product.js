@@ -10,12 +10,12 @@ function Product() {
       <div>
         <img src="/shirt-men-3.jpg" className="object-cover object-center rounded " />
         <div className="flex pt-10">
-          <div className="w-3/4">
+          <div className="w-3/4 pr-14">
             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Basic Tee 6-Pack
             </h1>
             <h3 className="sr-only">Description</h3>
             <div className="space-y-6 pl-1">
-              <p className="text-base text-gray-900 pt-5">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+              <p className="text-lg text-gray-900 pt-5">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
               <h3 className="text-md font-medium text-gray-700">Highlights</h3>
               <div className="mt-4">
                 <ul className="list-disc space-y-2 pl-5 text-sm">
@@ -28,6 +28,13 @@ function Product() {
                   <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
                 </ul>
               </div>
+              <div class="mt-10">
+                <h2 class="text-base font-medium text-gray-700">Details</h2>
+
+                <div class="mt-4 space-y-6">
+                  <p class="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="w-1/4">
@@ -39,7 +46,7 @@ function Product() {
 
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
