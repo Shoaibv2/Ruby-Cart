@@ -61,7 +61,10 @@ function Product() {
                 <button className="p-8 border rounded-md justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">2xl</button>
               </div>
             </div>
-
+            <div className="flex space-x-1 mt-8">
+              <button className="lg:w-2/4 md:w-2/4 w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 py-3 px-3 text-base font-medium text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2">Buy Now</button>
+              <button className="lg:w-2/4 md:w-2/4 w-full items-center justify-center rounded-md border border-transparent bg-cyan-600 py-3 px-3 text-base font-medium text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2">Add To Cart</button>
+            </div>
           </div>
 
         </div>
