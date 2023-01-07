@@ -48,6 +48,20 @@ function Product() {
               <button className="border-2 border-gray-300  bg-white-800 rounded-full w-[34px] h-[34px] focus:outline-none"></button>
               <button className="border-2 border-gray-300  bg-neutral-900 rounded-full w-9 h-9 focus:outline-none"></button>
             </div>
+            <h2 className="mt-6 text-base font-medium text-gray-900">Size</h2>
+            <div className="flex flex-wrap pt-2">
+              <div className="lg:space-x-4 md:space-x-4">
+                <button className="p-8 border rounded-md  justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">xs</button>
+                <button className="p-9 border rounded-md  justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">s</button>
+                <button className="p-9 border rounded-md  justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">m</button>
+              </div>
+              <div className="lg:space-x-4 md:space-x-4 mt-3">
+                <button className="p-9 border rounded-md justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">l</button>
+                <button className="p-8 border rounded-md justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">xl</button>
+                <button className="p-8 border rounded-md justify-center text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:py-3 bg-white shadow-sm text-gray-900">2xl</button>
+              </div>
+            </div>
+
           </div>
 
         </div>
