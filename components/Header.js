@@ -31,7 +31,7 @@ export default function Header() {
           <AiOutlineShoppingCart onClick={toggleClick} />
         </button>
         <div ref={ref} className="cursor-pointer absolute top-0 right-0 p-5 bg-cyan-50 shadow-lg transform transition-transform translate-x-full">
-          <div className="cyan-400 absolute top-0 right-0">
+          <div className="cyan-400 absolute top-1 right-1 text-lg">
             <AiFillCloseCircle onClick={toggleClick} />
           </div>
           <div>
