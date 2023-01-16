@@ -36,39 +36,39 @@ export default function Header() {
           </div>
           <div>
             <ul>
-              <li className="flex space-x-4 my-4">
-                <div className="w-1/4">
+              <li className="flex space-x-2 my-4">
+                <div className="w-1/6">
                   <div className="h-[50px] w-[50px] overflow-hidden">
-                    <img src="/shirt-men-3.jpg" alt="" className="w-full h-full object-cover object-top" />
+                    <img src="/Men's Performance Golf Grid Short Sleeve Stretch Polo Shirt-Legacy.jpg" alt="" className="w-full h-full object-contain object-center" />
                   </div>
                 </div>
-                <div className="w-3/4">
-                  <h4 className="text-black font-semibold">T Shirt For Men</h4>
-                  <span className="text-gray-500 text-sm">$15</span>
+                <div className="w-5/6">
+                  <h4 className="text-black font-semibold">Golf Short Sleeve Polo Shirt</h4>
+                  <span className="text-gray-500 text-sm">$98</span>
                 </div>
               </li>
               <hr className="h-px bg-gray-300 border-0" />
-              <li className="flex space-x-4 my-4">
-                <div className="w-1/4">
+              <li className="flex space-x-2 my-4">
+                <div className="w-1/6">
                   <div className="h-[50px] w-[50px] overflow-hidden">
-                    <img src="/shirt-men-5.jpg" alt="" className="w-full h-full object-cover object-top" />
+                    <img src="/Men's Base Plate Blended Short Sleeve T-Shirt.jpg" alt="" className="w-full h-full object-contain object-center" />
                   </div>
                 </div>
-                <div className="w-3/4">
-                  <h4 className="text-black font-semibold">T Shirt For Men</h4>
-                  <span className="text-gray-500 text-sm">$10</span>
+                <div className="w-5/6">
+                  <h4 className="text-black font-semibold">Base Short Sleeve T-Shirt</h4>
+                  <span className="text-gray-500 text-sm">$34</span>
                 </div>
               </li>
               <hr className="h-px bg-gray-300 border-0" />
-              <li className="flex space-x-4 my-4">
-                <div className="w-1/4">
+              <li className="flex space-x-2 my-4">
+                <div className="w-1/6">
                   <div className="h-[50px] w-[50px] overflow-hidden">
-                    <img src="/t-shirt-men-2.jpg" alt="" className="w-full h-full object-cover object-top" />
+                    <img src="/Men's Short Sleeve Paris Polo.jpg" alt="" className="w-full h-full object-contain object-center" />
                   </div>
                 </div>
-                <div className="w-3/4">
-                  <h4 className="text-black font-semibold">T Shirt For Men</h4>
-                  <span className="text-gray-500 text-sm">$12</span>
+                <div className="w-5/6">
+                  <h4 className="text-black font-semibold">Men's Short Sleeve Paris Polo</h4>
+                  <span className="text-gray-500 text-sm">$94</span>
                 </div>
               </li>
             </ul>
