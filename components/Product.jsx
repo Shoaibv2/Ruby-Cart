@@ -18,10 +18,9 @@ const Products = (props) => {
           </div>
           <div className="mt-3 flex">
             <div className="">
-              <span className="pl-[2px] text-sm font-medium text-gray-900">{product.title}</span>
+              <span className="pl-[2px] text-sm font-medium text-gray-900 text-clip">{product.title}</span>
               <p className="mt-1 text-sm text-gray-600 pl-[2px]">Shop Now</p>
             </div>
-
           </div>
         </Link>
       </div>
