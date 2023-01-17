@@ -4,11 +4,9 @@ import { AiFillStar } from "react-icons/ai";
 import { getProduct } from "../../components/products";
 
 function Product() {
-
   const router = useRouter()
   const slug = router.asPath.replace('/product/', '')
   const product = getProduct(slug)
-
 
   return (
     <div className='container mx-auto my-8'>
@@ -16,15 +14,11 @@ function Product() {
         <Link href={`/${product.category}`} className='mr-2 text-base font-medium text-gray-900 capitalize'>{product.category}<span className='h-5 w-4 text-gray-300'>\</span> </Link>
         <span className='medium  sm:font-normal text-gray-500 hover:text-gray-600'>{product.title}</span>
       </div>
-
-      <div className="flex space-x-4">
-        <div className="w-2/3">
-
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-2/3">
           <img src={product.imgUrl} alt="" className="lg:h-[600px] lg:w-[800px] h-auto w-auto object-contain object-center rounded overflow-hidden" />
-
         </div>
-        <div className="w-1/3">
-
+        <div className="w-full md:w-1/3 pt-4 md:pt-0">
           <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.title}
           </h1>
           <p className="text-3xl md:text-2xl sm:text-xl font-medium sm:font-normal tracking-tight text-gray-900 pt-4">${product.price}</p>
@@ -53,25 +47,19 @@ function Product() {
       <div className="flex mt-10">
 
         <div className="space-y-6 pl-1">
-          <p className="text-lg text-gray-900 pt-5">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+          <p className="text-lg text-gray-900 pt-5">{product.desc}</p>
           <h3 className="text-md font-medium text-gray-700">Highlights</h3>
           <div className="mt-4">
             <ul className="list-disc space-y-2 pl-5 text-sm">
-              <li className="text-gray-400"><span className="text-gray-600">Hand cut and sewn locally</span></li>
+              <li className="text-gray-400"><span className="text-gray-600">High Quality</span></li>
 
-              <li className="text-gray-400"><span className="text-gray-600">Dyed with our proprietary colors</span></li>
+              <li className="text-gray-400"><span className="text-gray-600">Classic and versatile design
+              </span></li>
 
-              <li className="text-gray-400"><span className="text-gray-600">Pre-washed &amp; pre-shrunk</span></li>
+              <li className="text-gray-400"><span className="text-gray-600">Comfortable material</span></li>
 
               <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
             </ul>
-          </div>
-          <div className="mt-10">
-            <h2 className="text-base font-medium text-gray-700">Details</h2>
-
-            <div className="mt-4 space-y-6">
-              <p className="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
-            </div>
           </div>
         </div>
       </div>
