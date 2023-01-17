@@ -1,7 +1,10 @@
+import Products from "../components/Product"
 
 function Kids() {
   return (
-    <div>Kids</div>
+    <div className="container py-16 px-4 mx-auto">
+      <Products category="kids" />
+    </div>
   )
 }
 
