@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { useRef } from "react";
 import { AiOutlineShoppingCart, AiFillCloseCircle } from "react-icons/ai";
@@ -19,7 +19,7 @@ export default function Header() {
     <header className="text-cyan-600 body-font bg-white shadow-sm mb-5 sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
         <Link href={"/"} className="flex title-font font-medium items-center mb-4 md:mb-0">
-          <Image src="/logo.png" width={180} height={70} alt={""}></Image>
+          <img src="/logo.png" width="180px" height="70" alt="" />
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link href={"/men"} className="mr-10 hover:text-cyan-800 text-lg font-semibold">Men</Link>
