@@ -30,10 +30,9 @@ export default function Header() {
         <button className="inline-flex items-center py-1 px-3 text-3xl mt-4 md:mt-0">
           <AiOutlineShoppingCart onClick={toggleClick} />
         </button>
-        <div ref={ref} className="cursor-pointer absolute top-0 right-0 p-5 bg-cyan-50 shadow-lg transform transition-transform translate-x-full">
-          <div className="cyan-400 absolute top-1 right-1 text-lg">
-            <AiFillCloseCircle onClick={toggleClick} />
-          </div>
+        <div ref={ref} className="absolute top-0 right-0 p-5 bg-cyan-50 shadow-lg transform transition-transform translate-x-full">
+          <button className="cyan-400 absolute top-1 right-1 text-lg">
+            <AiFillCloseCircle onClick={toggleClick} /></button>
           <div>
             <ul>
               <li className="flex space-x-2 my-4">
