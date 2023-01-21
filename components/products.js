@@ -211,7 +211,8 @@ const products = [
     price: 98.9,
     color: ["peach"],
     size: ["xl", "m", "s"],
-    imgUrl: "/The Children's Place Girls' Long Sleeve Basic Layering T-Shirt.jpg",
+    imgUrl:
+      "/The Children's Place Girls' Long Sleeve Basic Layering T-Shirt.jpg",
     desc: "100% Cotton.Imported.Pull On closure.Machine Wash.Made of soft cotton for a comfortable, no-fuss feel all day long.Pull-over style with long sleeves and a crew neck.A closet must for any season, this top is cute under her favorite sweater or sported solo over a pair of shorts.The Children's Place offers value-priced clothes and apparel that are fun and easy to put together.They'll love this style…you'll love this place.",
     rating: 4.6,
     category: "kids",
@@ -287,7 +288,8 @@ const products = [
     desc: "100% Cotton. Printed design. Straight design. Hood. Long sleeve. Pouch pocket.",
     rating: 4.6,
     category: "kids",
-  }, {
+  },
+  {
     id: 24,
     title: "Women's Long Sleeve Tipped Ringer",
     slug: "t-shirt=women-long-sleeve-tipped-ringer-tee",
@@ -383,21 +385,20 @@ const products = [
     rating: 4.6,
     category: "men",
   },
-
-]
+];
 
 const getProduct = (slug) => {
-  let product = {}
+  let product = {};
   products.map((p) => {
     if (p.slug === slug) {
-      product = p
+      product = p;
     }
-  })
-  return product
-}
+  });
+  return product;
+};
 
 // get slug from url
 // const product = getProduct(slug)
 
-export { getProduct }
-export default products
+export { getProduct };
+export default products;
