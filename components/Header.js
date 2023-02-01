@@ -53,7 +53,7 @@ export default function Header() {
         </button>
         <div
           ref={ref}
-          className="absolute top-0 right-0 p-5 bg-cyan-50 shadow-lg transform transition-transform scale-x-100 origin-right"
+          className="absolute top-0 right-0 p-5 bg-cyan-50 shadow-lg transform transition-transform scale-x-0 origin-right"
         >
           <button className="cyan-400 absolute top-1 right-1 text-lg">
             <AiFillCloseCircle onClick={toggleClick} />
