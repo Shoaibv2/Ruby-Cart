@@ -13,7 +13,7 @@ const Products = (props) => {
   const productList = [];
   filteredProducts.map((product, key) => {
     productList.push(
-      <div key={key} className="lg:w-1/4 p-4 md:w-1/2 w-full group mt-2">
+      <div key={key} className="lg:w-1/4 p-4 md:w-1/2 w-full group mt-4">
         <Link href={"/product/" + product.slug}>
           <div className=" h-[288px] w-[288px] overflow-hidden rounded-md bg-gray-100 group-hover:opacity-75">
             <img
@@ -37,7 +37,11 @@ const Products = (props) => {
 
   console.log(productList);
 
-  return <div className="flex flex-wrap items-center -m-4">{productList}</div>;
+  return (
+    <div className="flex flex-wrap items-center mx-auto px-4 md:mx-0 md:px-0">
+      {productList}
+    </div>
+  );
 };
 
 export default Products;
