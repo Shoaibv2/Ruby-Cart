@@ -14,16 +14,16 @@ function Product() {
       <Head>
         <title className="capitalize">{product.title}</title>
       </Head>
-      <div className="container mx-auto my-8">
+      <div className="container mx-auto px-5 py-8 items-center md:items-start">
         <div className="flex items-center mb-5">
           <Link
             href={`/${product.category}`}
-            className="mr-2 text-base font-medium text-gray-900 capitalize"
+            className="mr-2 text-sm md:text-base font-medium text-gray-900 capitalize"
           >
             {product.category}
             <span className="h-5 w-4 text-gray-300">\</span>{" "}
           </Link>
-          <span className="text-gray-500 capitalize hover:text-gray-600">
+          <span className="text-gray-500 text-sm md:text-base capitalize hover:text-gray-600">
             {product.title}
           </span>
         </div>
@@ -36,10 +36,10 @@ function Product() {
             />
           </div>
           <div className="w-full md:w-1/3 pt-4 md:pt-0">
-            <h1 className="lg:text-3xl md:text-3xl font-bold capitalize tracking-tight text-gray-900 sm:text-2xl">
+            <h1 className="md:text-3xl font-bold capitalize tracking-tight text-gray-900 text-2xl">
               {product.title}
             </h1>
-            <p className="lg:text-3xl md:text-3xl sm:text-2xl font-medium sm:font-normal tracking-tight text-gray-900 pt-4">
+            <p className="md:text-3xl text-2xl md:font-medium font-normal tracking-tight text-gray-900 pt-4">
               ${product.price}
             </p>
             <h3 className="sr-only">Reviews</h3>
