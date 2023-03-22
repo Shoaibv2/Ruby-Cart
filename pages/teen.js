@@ -7,7 +7,7 @@ function Teen() {
       <Head>
         <title>Teen</title>
       </Head>
-      <div className="container py-16 px-4 mx-auto">
+      <div className="container md:py-16 py-8 px-4 mx-auto">
         <Products category="teen" />
       </div>
     </>
